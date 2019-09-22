@@ -49,4 +49,9 @@ describe("Test Maha-Lap", () => {
     const result = MahaLap.tamnaiWithDay("คริสมาสต์");
     expect(result).toEqual(25);
   });
+
+  test("Test Tamnai wiht day 20", () => {
+    const result = MahaLap.tamnaiWithDay("20");
+    expect(result).toEqual(99);
+  });
 });
